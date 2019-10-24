@@ -1,0 +1,201 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	margin:0 ;
+	background-image: url(images/white-brick-interior-wall-texture.jpg);
+	background-size: cover;
+}
+
+.header{
+	background-color: #0B243B;
+	font-family:'Chewy', cursive;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+.header a:hover{
+	color: #CED8F6;
+}
+
+.header ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 10px 15px 10px 15px;
+	color: #0B243B;
+	margin: 0;
+}
+
+.home p{
+	font-family: 'Chewy', cursive;
+	font-size: 22px;
+}
+
+.identite{
+	position: absolute;
+	left: 240px;
+	top: 240px;
+}
+
+#intro{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.atouts{
+	color: white;
+	font-size: 19px;
+	font-family: 'Chewy', cursive;
+	letter-spacing: 2px;
+	z-index: 2
+
+}
+
+.atouts h5{
+	position: absolute;
+	font-size: 30px;
+	left: 970px;
+	top: 355px;
+	text-align: center;
+	z-index: 1;
+}
+
+.atouts ul{
+	position: absolute;
+	left: 870px;
+	text-align: center;
+	top: 450px;
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Gochi Hand', cursive;
+	line-height: 18px;
+	z-index: 2
+}
+
+.peinture{
+	position: relative;
+	text-align: right;
+	margin-top: -465px;
+}
+
+h4{
+	color: white;
+	font-size: 25px;
+	font-family: 'Chewy', cursive;
+	background-color: #0B243B;
+	display: inline;
+	padding: 10px 10px 10px 10px ;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+
+.sous-titre {
+	color: #084B8A;
+	font-weight: bold 700px;
+}
+
+.souligne{
+	text-decoration: underline;
+}
+
+p{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+.milieu{
+	margin-left: 15px;
+}
+
+.home{
+	font-family: 'Chewy', cursive;
+	color: black;
+	padding: 55px;
+}
+
+#cv{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+	width: 100%;
+}
+
+#contact{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+	width: 100%;
+}
+
+.coordonnees{
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+#adress{
+	position: relative;
+	text-align: center;
+	bottom: 300px;
+	font-size: 27px;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.form{
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+}
+
+footer a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Chewy', cursive;
+	font-size: 23px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: white;
+	padding: 0px 25px 0px 25px;
+	background-color: #0B243B;
+	width: : 100%;
+	font-family: sans-serif;
+}
+
+footer #follow:hover {
+	color: #CED8F6;
+}
+
+.linkedin img{
+	width: 50px;
+	margin-left: -460px;
+	margin-top: 18px;
+}
+
+footer span{
+	border: solid black;
+	padding: 5px;
+	background-color: #F2F5A9;
+}
+	
